@@ -1,0 +1,6 @@
+# Composer
+composer.phar
+src/vendor/*
+
+# IDE
+.idea

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEFEF;
+  font-family: Verdana, Helvetica, Calibri, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container-outer {
+  position: relative;
+  top: 10%;
+}
+.container-outer .container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  max-width: 100%;
+}
+.container-outer .container h1 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+form {
+  padding: 10px;
+}
+form .form-item {
+  margin-top: 10px;
+}
+form .form-item:first-child {
+  margin-top: 0;
+}
+form .form-item label {
+  display: block;
+  padding: 0 0 5px 0;
+}
+form .form-item input[type=text], form .form-item input[type=email], form .form-item input[type=password], form .form-item input[type=number] {
+  padding: 10px 15px;
+  border: #333333 solid 1px;
+  width: 100%;
+}
+form .form-submit {
+  margin-top: 10px;
+}
+form .form-submit input[type=submit] {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #2980b9;
+  border: none;
+  color: #FAFAFA;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 100%;
+}
+form .form-submit input[type=submit]:hover, form .form-submit input[type=submit]:focus {
+  opacity: 1;
+}
+form .error, form .success {
+  margin-top: 10px;
+  border-left: #FFFFFF solid 2px;
+  padding: 10px;
+}
+form .error.error, form .success.error {
+  border-left-color: red;
+  color: red;
+}
+form .error.success, form .success.success {
+  border-left-color: green;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
